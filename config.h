@@ -9,7 +9,7 @@ static const struct arg args[] = {
 	{ cpu_perc, " CPU %s%% | ", NULL	},
 	{ ram_perc, " RAM %s%% | ", NULL	},
 	{ disk_perc, " ROOT %s%% | ", "/" },
-        { disk_perc, " HDD %s%% | ", "/games" },
+        //{ disk_perc, " HDD %s%% | ", "/games" },
 	{ run_command, " PACKAGES %s | ", "qlist -I | wc -l" },
 	{ uptime,   " UPTIME %s | ", NULL },
 	{ kernel_release, "%s | ", NULL },
