@@ -14,11 +14,13 @@ static const struct arg args[] = {
 	{ cpu_perc, " CPU %s%% ", NULL	},
 	{ cpu_freq, " %sHz ", NULL },
 	{ temp, "%s\u00b0C | ", "/sys/class/thermal/thermal_zone0/temp" },
+	{ load_avg, "%s | ", NULL },
 	{ ram_perc, " RAM %s%% | ", NULL	},
 	{ disk_perc, " ROOT %s%% | ", "/" },
 	//{ disk_perc, " HDD %s%% | ", "/mnt/games" },
 	{ run_command, " PACKAGES %s | ", "qlist -I | wc -l" },
 	{ uptime,   "  UPTIME %s | ", NULL },
 	{ kernel_release, "%s | ", NULL },
+	{ keymap, " %s | ", NULL },
 	{ datetime, 	" %s",    "%B %d %a %T" },
 };
