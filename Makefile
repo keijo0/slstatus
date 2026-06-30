@@ -6,13 +6,16 @@ include config.mk
 
 REQ = util
 COM =\
+	components/backlight\
 	components/battery\
 	components/cpu\
 	components/datetime\
 	components/disk\
 	components/entropy\
 	components/hostname\
+	components/iocheck\
 	components/ip\
+	components/kanji\
 	components/kernel_release\
 	components/keyboard_indicators\
 	components/keymap\

@@ -1,5 +1,8 @@
 /* See LICENSE file for copyright and license details. */
 
+/* backlight */
+const char *backlight_perc(const char *);
+
 /* battery */
 const char *battery_perc(const char *);
 const char *battery_state(const char *);
@@ -24,9 +27,17 @@ const char *entropy(void);
 /* hostname */
 const char *hostname(void);
 
+/* iocheck */
+const char *io_in(void);
+const char *io_out(void);
+const char *io_perc(void);
+
 /* ip */
 const char *ipv4(const char *interface);
 const char *ipv6(const char *interface);
+
+/* kanji */
+const char *kanji(const char *unused);
 
 /* kernel_release */
 const char *kernel_release(void);
